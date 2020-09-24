@@ -82,6 +82,5 @@ using namespace std;
             regUsuario = leerUsuario(buscarID(IdUsuario));
             cout << regUsuario.nombres<<  "  "  << regUsuario.apellidos << endl;
             cout <<"La cantidad : "<< cantidad << endl;
-
            anykey() ;
  }
