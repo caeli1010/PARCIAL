@@ -45,6 +45,9 @@ void menu(){
         case 2:
             menuRutinas();
             break;
+        case 3 :
+            Reportes () ;
+            break;
         case 4:
             menuConfig();
             break;
@@ -146,6 +149,38 @@ void menuRutinas(){
     } while (opcion != 0);
 }
 
+void Reportes (){
+      while(true){
+
+        system("cls");
+        title("REPORTES ",BLACK,CYAN);
+        gotoxy(1,3);
+        cout<<"1 - PUNTO A :  "<<endl;
+        cout<<"2 - PUNTO B :  "<<endl;
+        cout<<"------------------------------"<<endl;
+        cout<<"0 - VOLVER AL MENU PRINCIPAL"<<endl;
+        int opcion;
+        cout<<"> ";
+        cin>> opcion;
+        system("cls");
+        switch(opcion)
+        {
+        case 1:
+            PuntoA() ;
+            break;
+        case 2:
+            MostrarB();
+            break;
+        case 0:
+            return;
+            break;
+        default:
+            break;
+        }
+    }
+}
+
+
 void menuConfig(){
 int opcion;
         do {
@@ -178,7 +213,7 @@ int opcion;
             break;
         }
     } while (opcion != 0);
-}
+
 
 void preparcial (){
       while(true){

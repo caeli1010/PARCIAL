@@ -4,6 +4,7 @@
 void menu();
 void menuUsuarios();
 void menuRutinas();
+void Reportes ();
 void menuConfig();
 void developers();
 void preparcial ();

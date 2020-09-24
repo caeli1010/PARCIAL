@@ -137,7 +137,7 @@ Usuario cargarUsuario(){
     system("cls");
 
     return registro;
-        }
+    }
 
 
 void guardarUsuario(){
@@ -174,7 +174,7 @@ void guardarUsuario(){
     }
 }
 
-void modificarUsuario(){///PROBLEMA CON ESTA FUNCION: SE CUELGA AL SALIR! ENVIA LOS DOS CARTELES PERO GUARDA
+void modificarUsuario(){
 
     FILE *p;
     int posicion;
