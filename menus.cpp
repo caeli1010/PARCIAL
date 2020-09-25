@@ -14,7 +14,7 @@
 #include "rlutil.h"
 #include "reportes.h"
 #include  "Modeloparcial.h"
-
+#include "parcial.h"
 using namespace rlutil;
 using namespace std;
 
@@ -155,7 +155,7 @@ void Reportes (){
         system("cls");
         title("REPORTES ",BLACK,CYAN);
         gotoxy(1,3);
-        cout<<"1 - PUNTO A :  "<<endl;
+        cout<<"1 - MAYOR CALORIAS :  "<<endl;
         cout<<"2 - PUNTO B :  "<<endl;
         cout<<"------------------------------"<<endl;
         cout<<"0 - VOLVER AL MENU PRINCIPAL"<<endl;
@@ -166,7 +166,7 @@ void Reportes (){
         switch(opcion)
         {
         case 1:
-            PuntoA() ;
+           MayorCalorias ;
             break;
         case 2:
             MostrarB();
@@ -212,7 +212,7 @@ int opcion;
         default:
             break;
         }
-    } while (opcion != 0);
+    } while (opcion != 0); }
 
 
 void preparcial (){

@@ -77,7 +77,7 @@ using namespace std;
        cin>> IdUsuario;
         cout << "Anio : " ;
         cin>> anio;
-        cantidad = cantRutinasUsuario(IdUsuario, anio);
+        cantidad = cantRutinasUsuario(IdUsuario,anio);
 
             regUsuario = leerUsuario(buscarID(IdUsuario));
             cout << regUsuario.nombres<<  "  "  << regUsuario.apellidos << endl;

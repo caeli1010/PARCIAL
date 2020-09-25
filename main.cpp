@@ -12,7 +12,7 @@
 #include "fechas.h"
 #include "ui.h"
 #include "rlutil.h"
-
+#include "parcial.h"
 using namespace rlutil;
 using namespace std;
 

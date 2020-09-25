@@ -189,7 +189,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1600833409 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\main.cpp
+1600991044 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\main.cpp
 	<iostream>
 	<cstdio>
 	<stdlib.h>
@@ -204,6 +204,7 @@
 	"fechas.h"
 	"ui.h"
 	"rlutil.h"
+	"parcial.h"
 
 1600910405 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\reportes.cpp
 	<iostream>
@@ -246,7 +247,7 @@
 	"ui.h"
 	"rlutil.h"
 
-1600833409 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\usuarios.cpp
+1600965377 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\usuarios.cpp
 	<iostream>
 	<cstdio>
 	<stdlib.h>
@@ -262,7 +263,7 @@
 	"ui.h"
 	"rlutil.h"
 
-1600918010 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\modeloparcial.cpp
+1600991045 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\modeloparcial.cpp
 	<stdlib.h>
 	<ctime>
 	<string.h>
@@ -278,7 +279,7 @@
 	"reportes.h"
 	"Modeloparcial.h"
 
-1600918113 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\menus.cpp
+1600992848 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\menus.cpp
 	<iostream>
 	<cstdio>
 	<stdlib.h>
@@ -295,6 +296,28 @@
 	"rlutil.h"
 	"reportes.h"
 	"Modeloparcial.h"
+	"parcial.h"
 
 1600918099 c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\modeloparcial.h
+
+1600991177 c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\parcial.h
+
+1600992758 source:c:\users\usuario\desktop\lab comp 1\nueva carpeta\tp3 lab2\parcial.cpp
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<ctime>
+	<string.h>
+	<cstring>
+	<cctype>
+	<algorithm>
+	"rutinas.h"
+	"usuarios.h"
+	"menus.h"
+	"fechas.h"
+	"ui.h"
+	"rlutil.h"
+	"reportes.h"
+	"Modeloparcial.h"
+	"parcial.h"
 
